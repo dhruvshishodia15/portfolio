@@ -25,9 +25,9 @@ const Hero = () => {
               className="w-32 h-32 mx-auto mb-8 rounded-full overflow-hidden border-4 border-blue-500"
             >
               <img
-                src="/profile.jpg"
-                alt="Dhruv Rana"
-                className="w-full h-full object-cover"
+                  src={`${import.meta.env.BASE_URL}profile.jpg`}
+                  alt="Dhruv Rana"
+                  className="w-full h-full object-cover"
               />
           </motion.div>
 
