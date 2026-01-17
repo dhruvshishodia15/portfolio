@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/portfolio">
       <div className="min-h-screen bg-gray-900 text-white">
         <Navbar />
         <Hero />
