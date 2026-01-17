@@ -47,13 +47,14 @@ const Hero = () => {
             </a>
 
             <a
-              href="/resume.pdf"
+              href={`${import.meta.env.BASE_URL}resume.pdf`}
               target="_blank"
               rel="noopener noreferrer"
               className="border border-blue-600 text-blue-600 hover:bg-blue-600 hover:text-white px-8 py-3 rounded-lg font-medium transition-colors"
             >
               Download Resume
             </a>
+
           </div>
         </motion.div>
       </div>
