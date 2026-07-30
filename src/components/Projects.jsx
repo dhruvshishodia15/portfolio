@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "Finance Tracker",
+    title: "AI & Robotics Workshop Landing Page",
     description:
-      "A modern finance tracking web app that helps users manage income and expenses with a clean dashboard UI.",
-    tech: ["React", "Tailwind CSS", "Charts", "Local Storage"],
-    live: "https://dhruvshishodia15.github.io/finance-tracker/",
+      "Built a responsive landing page for an AI & Robotics Workshop with workshop details, FAQ, and registration form..",
+    tech: ["React", "Tailwind CSS", "Nodejs", "Expressjs"],
+    live: " https://ai-robotics-workshop-two.vercel.app/",
   },
   {
     title: "Freelance Platform",
